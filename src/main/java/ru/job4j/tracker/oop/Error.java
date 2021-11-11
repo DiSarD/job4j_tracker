@@ -15,7 +15,7 @@ public class Error {
         this.status = status;
     }
 
-    public void printError () {
+    public void printError() {
         System.out.println(this.active);
         System.out.println(this.status);
         System.out.println(this.message);
