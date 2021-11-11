@@ -10,7 +10,7 @@ public class Cat {
     }
 
     public void show() {
-        System.out.println("Cat " + this.name+" ate "+this.food);
+        System.out.println("Cat " + this.name + " ate "+this.food);
     }
 
     public String sound() {
