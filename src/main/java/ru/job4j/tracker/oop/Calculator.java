@@ -24,6 +24,17 @@ public class Calculator {
         return this.multiply(n) + this.divide(n) + minus(n) + sum(n);
     }
 
+    public double add(double first, double second) {
+        return first + second;
+    }
+
+    public double add(double first, double second, double third) {
+        return add(
+                first,
+                add(second, third)
+        );
+    }
+
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         int result = sum(10);
