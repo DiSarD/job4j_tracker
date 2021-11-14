@@ -12,10 +12,6 @@ public class Engineer extends Profession {
         this.rank = rank;
     }
 
-    public Engineer() {
-
-    }
-
     public Project consult(Customer customer) {
         Project project = new Project();
         return project;

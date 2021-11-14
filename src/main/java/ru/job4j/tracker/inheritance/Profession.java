@@ -8,10 +8,6 @@ public class Profession {
     private String education;
     private Date birthday;
 
-    public Profession() {
-
-    }
-
     public Profession(String name, String surname, String education, Date birthday) {
         this.birthday = birthday;
         this.education = education;

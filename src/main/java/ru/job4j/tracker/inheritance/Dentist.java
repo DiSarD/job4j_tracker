@@ -6,9 +6,6 @@ public class Dentist extends Doctor {
 
     private boolean isCanRemoveTooth;
 
-    public Dentist() {
-    }
-
     public Dentist(String name,
                    String surname,
                    String education,

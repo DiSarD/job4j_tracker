@@ -6,10 +6,6 @@ public class Builder extends Engineer {
 
     private boolean isCanBuildSkyscraper;
 
-    public Builder() {
-
-    }
-
     public Builder(String name,
                    String surname,
                    String education,

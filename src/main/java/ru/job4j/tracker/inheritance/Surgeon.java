@@ -6,10 +6,6 @@ public class Surgeon extends Doctor {
 
     private boolean isCanOperateChild;
 
-    public Surgeon() {
-
-    }
-
     public Surgeon(String name,
                    String surname,
                    String education,

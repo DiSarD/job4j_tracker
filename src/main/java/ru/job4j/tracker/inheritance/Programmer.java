@@ -6,10 +6,6 @@ public class Programmer extends Engineer {
 
     private String language;
 
-    public Programmer() {
-
-    }
-
     public Programmer(String name,
                       String surname,
                       String education,
