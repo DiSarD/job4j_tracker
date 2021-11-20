@@ -34,16 +34,16 @@ public class Tracker {
     }
 
     public Item[] findByName(String name) {
-        int rslSize = 0;
+        int count = 0;
         Item[] rsl = new Item[size];
         for (int index = 0; index < size; index++) {
             Item item = items[index];
             if (item.getName().equals(name)) {
-                rsl[rslSize] = item;
-                rslSize++;
+                rsl[count] = item;
+                count++;
             }
         }
-        return Arrays.copyOf(rsl, rslSize);
+        return Arrays.copyOf(rsl, count);
     }
 
     public boolean replace(int id, Item item) {
