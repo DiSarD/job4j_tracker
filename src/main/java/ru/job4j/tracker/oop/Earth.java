@@ -1,6 +1,7 @@
 package ru.job4j.tracker.oop;
 
 public class Earth {
+
     public static void main(String[] args) {
         Vehicle train = new Train();
         Vehicle plane = new Plane();
