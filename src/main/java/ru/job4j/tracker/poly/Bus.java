@@ -7,10 +7,11 @@ public class Bus implements Transport {
 
     @Override
     public void passenger(int number) {
+        System.out.println("В автобусе " + number + " пассажиров");
     }
 
     @Override
     public double refuel(int volume) {
-        return 0;
+        return volume * 54;
     }
 }
